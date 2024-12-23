@@ -12,6 +12,7 @@ navbar-links:
   Projects: "projects"
   Members: "members"
   Auditions: "auditions"
+#  About: "about"
   Contact: "contact"
 
 ################
@@ -38,30 +39,12 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-#  email: "distilledharmonynu@gmail.com"
-#  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-#  facebook: 
-#  github: distilledharmonynu
-#  twitter: distilledharmonynu
-#  patreon: 
-#  youtube: 
-#  medium: 
-#  reddit: 
-#  linkedin: lucas-saltonstall-currier
-#  xing: 
-#  stackoverflow: 
-#  snapchat: 
   instagram: distilledharmonynu
-  spotify: 
-#  telephone: +16507395542
-#  steam: Dastardi
-#  twitch: 
-#  yelp: 
-#  telegram: 
-#  calendly: 
-#  mastodon: 
-#  google-scholar: 
-#  discord: "invite_code" or "users/userid" or "invite/invite_code" 
+  youtube: distilledhnu
+  spotify: spotify
+  itunes: distilled-harmony/1042480269
+  tiktok: distilledharmonynu
+  email: "distilledharmonynu@gmail.com"
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
@@ -111,16 +94,16 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#06001C"
+navbar-col: "#000"
 navbar-text-col: "#F6F7FC"
-navbar-border-col: "#06001C"
-page-col: "#06001C"
+navbar-border-col: "#000"
+page-col: "#000"
 text-col: "#F6F7FC"
 link-col: "#F6F7FC"
 hover-col: "#F6F7FC"
-footer-col: "#06001C"
+footer-col: "#000"
 footer-text-col: "#F6F7FC"
-footer-link-col: "#404040"
+footer-link-col: "#000"
 footer-hover-col: "#6965D2"
 
 # Alternatively, the navbar, footer, and page background can be set to an image

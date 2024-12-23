@@ -11,7 +11,7 @@ body {
   font-size: 1.125rem;
   color: #F6F7FC;
   position: relative;
-  background-color: #06001C;
+  background-color: #000;
   
   overflow-wrap: break-word;
 }
@@ -126,8 +126,8 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #06001C;
-  border-bottom: 1px solid #06001C;
+  background-color: #000;
+  border-bottom: 1px solid #000;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   
   -webkit-transition: padding .5s ease-in-out;
@@ -258,7 +258,7 @@ img {
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
   padding: 0.625rem;
-  background-color: #06001C;
+  background-color: #000;
   text-decoration: none !important;
   font-weight: normal;
   color: #F6F7FC;
@@ -274,7 +274,7 @@ img {
 
   .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
     padding-left: 0.625rem;
-    border: 1px solid #06001C;
+    border: 1px solid #000;
     border-width: 0 1px 1px;
   }
 
@@ -285,7 +285,7 @@ img {
 
 @media (max-width: 1199px) {
   .navbar-custom .navbar-collapse {
-    border-top: 1px solid #06001C;
+    border-top: 1px solid #000;
     margin: 0 -1rem;
   }
 
@@ -380,7 +380,7 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: #06001C;
+  background-color: #000;
   
 }
 
@@ -389,7 +389,7 @@ footer p.text-muted {
 }
 
 footer a {
-  color: #404040;
+  color: #000;
 }
 
 footer a:hover,

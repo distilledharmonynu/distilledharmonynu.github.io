@@ -15,7 +15,7 @@ title: Auditions FAQs
     cursor: pointer;
     font-size: 18px;
     padding: 15px;
-    background: #06001C;
+    background: #000;
     color: #F6F7FC;
     border: none;
     border-radius: 5px;
@@ -40,7 +40,7 @@ title: Auditions FAQs
     overflow: hidden;
     transition: opacity 0.3s ease, max-height 0.3s ease;
     font-size: 16px;
-    background: #06001C;
+    background:#000;
     color: #F6F7FC;
     margin-top: 5px;
     padding: 0 15px;

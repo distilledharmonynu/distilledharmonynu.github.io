@@ -19,7 +19,7 @@ members:
     instagram: https://instagram.com/currier_luke
 
   - name: Nevaeh Adu
-    img:  /assets/members/vaeh.jpg
+    img:  /assets/members/vaeh.webp
     role: Brand Manager
     instagram: https://instagram.com/nevaeh.mo
 
@@ -39,7 +39,7 @@ members:
     instagram: https://instagram.com/danhellrie
 
   - name: Utsavi James
-    img:  /assets/members/utsie.jpg
+    img:  /assets/members/utsie.webp
     role: 
     instagram: https://instagram.com/utsavi_james
 
@@ -49,12 +49,12 @@ members:
     instagram: https://instagram.com/janekaefer_
 
   - name: Izzy Pregiato
-    img:  /assets/members/izzy.jpg
+    img:  /assets/members/izzy.webp
     role: 
     instagram: https://instagram.com/iz.pregiato
 
   - name: Sky Martin
-    img:  /assets/members/sky.jpg
+    img:  /assets/members/sky.webp
     role: 
     instagram: https://instagram.com/imskymartin
 
@@ -103,7 +103,7 @@ members:
 <div class="members-container">
   {% for member in page.members %}
   <div class="member-card">
-    <img src="{{ member.img }}" alt="{{ member.name }}">
+    <img src="{{ member.img }}" loading="lazy" alt="{{ member.name }}">
     {% if member.instagram %}
       <a href="{{ member.instagram }}" target="_blank">{{ member.name }}</a>
     {% else %}

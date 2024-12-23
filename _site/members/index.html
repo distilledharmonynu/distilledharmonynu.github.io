@@ -15,7 +15,19 @@
   <meta name="author" content="Distilled Harmony">
   
 
-  <meta name="description" content="">
+  <meta name="description" content="{% for member in page.members %}
+  
+    
+    {% if member.instagram %}
+      {{ member.name }}
+    {% else %}
+      {{ member.name }}
+    {% endif %}
+    {% if member.role %}
+      {{ member.role }}
+    {% endif %}
+  
+  {% endfor %}">
 
   
   <meta name="theme-color" content="#738573">
@@ -79,7 +91,19 @@
   
   <meta property="og:site_name" content="Distilled Harmony">
   <meta property="og:title" content="Our Members">
-  <meta property="og:description" content="">
+  <meta property="og:description" content="{% for member in page.members %}
+  
+    
+    {% if member.instagram %}
+      {{ member.name }}
+    {% else %}
+      {{ member.name }}
+    {% endif %}
+    {% if member.role %}
+      {{ member.role }}
+    {% endif %}
+  
+  {% endfor %}">
 
   
   <meta property="og:image" content="http://localhost:4000/assets/img/dhlogo.jpeg">
@@ -98,7 +122,19 @@
   <meta name="twitter:creator" content="@">
 
   <meta property="twitter:title" content="Our Members">
-  <meta property="twitter:description" content="">
+  <meta property="twitter:description" content="{% for member in page.members %}
+  
+    
+    {% if member.instagram %}
+      {{ member.name }}
+    {% else %}
+      {{ member.name }}
+    {% endif %}
+    {% if member.role %}
+      {{ member.role }}
+    {% endif %}
+  
+  {% endfor %}">
 
   
   <meta name="twitter:image" content="http://localhost:4000/assets/img/dhlogo.jpeg">
@@ -196,7 +232,152 @@
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
       
 
-      
+      <style>
+  .members-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .member-card {
+    text-align: center;
+    width: 200px; 
+  }
+
+  .member-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 3px solid #444; 
+  }
+
+  .title {
+    font-size: 0.9em;
+    color: #aaa;
+  }
+
+  @media (max-width: 768px) {
+    .member-card {
+      width: 120px;
+    }
+    .member-card img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+</style>
+
+<div class="members-container">
+  
+  <div class="member-card">
+    <img src="/assets/members/hansi.jpg" alt="Hansini Wadan" />
+    
+      <a href="https://instagram.com/hansini_wadan" target="_blank">Hansini Wadan</a>
+    
+    
+      <div class="title">Music Director</div>
+    
+  </div>
+  
+  <div class="member-card">
+    <img src="/assets/members/keshav.jpg" alt="Keshav Muralidharan" />
+    
+      <a href="https://instagram.com/keshavmuralidharan" target="_blank">Keshav Muralidharan</a>
+    
+    
+      <div class="title">Assistant Music Director</div>
+    
+  </div>
+  
+  <div class="member-card">
+    <img src="/assets/members/luke.jpg" alt="Luke Currier" />
+    
+      <a href="https://instagram.com/currier_luke" target="_blank">Luke Currier</a>
+    
+    
+      <div class="title">President</div>
+    
+  </div>
+  
+  <div class="member-card">
+    <img src="/assets/members/vaeh.jpg" alt="Nevaeh Adu" />
+    
+      <a href="https://instagram.com/nevaeh.mo" target="_blank">Nevaeh Adu</a>
+    
+    
+      <div class="title">Brand Manager</div>
+    
+  </div>
+  
+  <div class="member-card">
+    <img src="/assets/members/sam.jpg" alt="Sam Brown" />
+    
+      <a href="https://instagram.com/____sambrown____" target="_blank">Sam Brown</a>
+    
+    
+      <div class="title">Treasurer</div>
+    
+  </div>
+  
+  <div class="member-card">
+    <img src="/assets/members/audrey.jpg" alt="Audrey Nguyen" />
+    
+      <a href="https://instagram.com/audreywguyen" target="_blank">Audrey Nguyen</a>
+    
+    
+  </div>
+  
+  <div class="member-card">
+    <img src="/assets/members/daniel.jpg" alt="Daniel Hellriegel" />
+    
+      <a href="https://instagram.com/danhellrie" target="_blank">Daniel Hellriegel</a>
+    
+    
+  </div>
+  
+  <div class="member-card">
+    <img src="/assets/members/utsie.jpg" alt="Utsavi James" />
+    
+      <a href="https://instagram.com/utsavi_james" target="_blank">Utsavi James</a>
+    
+    
+  </div>
+  
+  <div class="member-card">
+    <img src="/assets/members/jane.jpg" alt="Jane Kaefer" />
+    
+      <a href="https://instagram.com/janekaefer_" target="_blank">Jane Kaefer</a>
+    
+    
+  </div>
+  
+  <div class="member-card">
+    <img src="/assets/members/izzy.jpg" alt="Izzy Pregiato" />
+    
+      <a href="https://instagram.com/iz.pregiato" target="_blank">Izzy Pregiato</a>
+    
+    
+  </div>
+  
+  <div class="member-card">
+    <img src="/assets/members/sky.jpg" alt="Sky Martin" />
+    
+      <a href="https://instagram.com/imskymartin" target="_blank">Sky Martin</a>
+    
+    
+  </div>
+  
+  <div class="member-card">
+    <img src="/assets/members/joe.jpg" alt="Joe Odetayo" />
+    
+      <a href="https://instagram.com/jqsxph" target="_blank">Joe Odetayo</a>
+    
+    
+  </div>
+  
+</div>
 
 
       

@@ -103,7 +103,7 @@ members:
 <div class="members-container">
   {% for member in page.members %}
   <div class="member-card">
-    <img src="{{ member.img }}" loading="lazy" alt="{{ member.name }}">
+    <a href="{{ member.instagram }}" target="_blank"><img src="{{ member.img }}" loading="lazy" alt="{{ member.name }}"></a>
     {% if member.instagram %}
       <a href="{{ member.instagram }}" target="_blank">{{ member.name }}</a>
     {% else %}

@@ -4,17 +4,17 @@ title: Our Members
 
 members:
   - name: Hansini Wadan
-    img: /assets/members/hansi.jpg
+    img: /assets/members/hansi.webp
     role: Music Director
     instagram: https://instagram.com/hansini_wadan
 
   - name: Keshav Muralidharan
-    img:  /assets/members/keshav.jpg
+    img:  /assets/members/keshav.webp
     role: Assistant Music Director
     instagram: https://instagram.com/keshavmuralidharan
 
   - name: Luke Currier
-    img:  /assets/members/luke.jpg
+    img:  /assets/members/luke.webp
     role: President
     instagram: https://instagram.com/currier_luke
 
@@ -24,17 +24,17 @@ members:
     instagram: https://instagram.com/nevaeh.mo
 
   - name: Sam Brown
-    img:  /assets/members/sam.jpg
+    img:  /assets/members/sam.webp
     role: Treasurer
     instagram: https://instagram.com/____sambrown____
     
   - name: Audrey Nguyen
-    img:  /assets/members/audrey.jpg
+    img:  /assets/members/audrey.webp
     role: 
     instagram: https://instagram.com/audreywguyen
 
   - name: Daniel Hellriegel
-    img:  /assets/members/daniel.jpg
+    img:  /assets/members/daniel.webp
     role: 
     instagram: https://instagram.com/danhellrie
 
@@ -44,7 +44,7 @@ members:
     instagram: https://instagram.com/utsavi_james
 
   - name: Jane Kaefer
-    img:  /assets/members/jane.jpg
+    img:  /assets/members/jane.webp
     role: 
     instagram: https://instagram.com/janekaefer_
 
@@ -59,7 +59,7 @@ members:
     instagram: https://instagram.com/imskymartin
 
   - name: Joe Odetayo
-    img:  /assets/members/joe.jpg
+    img:  /assets/members/joe.webp
     role: 
     instagram: https://instagram.com/jqsxph
 ---

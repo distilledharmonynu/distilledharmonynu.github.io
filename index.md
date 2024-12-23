@@ -3,9 +3,9 @@ layout: page
 title: Distilled Harmony
 share-title: Home
 cover-img:
-  - "/assets/img/performance.jpg" : ""
+  - "/assets/img/performance.jpg": ""
 ---
-### About Us
+## About Us
 
 Distilled Harmony is one of the many collegiate a cappella groups in the Boston area, and one of three all-gender a cappella groups at Northeastern University. Founded in 2003, we are an energetic, creative, and dedicated group, performing music anywhere from Phoebe Bridgers to FLO. While we love to sing at Northeastern and around Boston, we have also had the privilege of progressing to the semifinal of ICCAs and attending the National A Cappella Convention in Orlando, Florida, and will be competing again in ICCAs this Spring!
 
